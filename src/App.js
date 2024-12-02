@@ -1,10 +1,15 @@
-import React from 'react';
-import './styles/App.css'; // Import global styles
+import React from "react";
+import ProfileCard from "./components/ProfileCard";
 
 function App() {
   return (
-    <div>
-      
+    <div className="App">
+      <ProfileCard
+        name="moosa"
+        age={19}
+        occupation="student"
+        location="karachi"
+      />
     </div>
   );
 }
